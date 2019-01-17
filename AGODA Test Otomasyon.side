@@ -1,0 +1,350 @@
+{
+  "id": "addf8224-7bc8-470c-96e9-eed2e58f8086",
+  "version": "1.1",
+  "name": "AGODA Test Otomasyon",
+  "url": "https://www.agoda.com",
+  "tests": [{
+    "id": "3d2ddad7-2b2f-4b7b-8bc3-a028a672f864",
+    "name": "Otomasyon",
+    "commands": [{
+      "id": "2bc06b93-36ef-488b-9a87-466dd4408529",
+      "comment": "",
+      "command": "open",
+      "target": "/tr-tr/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58f0a153-fd22-471a-a4ce-f6f337476a03",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.IconBox__wrapper",
+      "targets": [
+        ["css=div.IconBox__wrapper", "css"],
+        ["css=.IconBox--autocomplete > .IconBox__wrapper", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d51172ce-c792-464c-bd03-3af1fcb3a4da",
+      "comment": "",
+      "command": "type",
+      "target": "css=input.SearchBoxTextEditor.SearchBoxTextEditor--autocomplete",
+      "targets": [
+        ["css=input.SearchBoxTextEditor.SearchBoxTextEditor--autocomplete", "css"],
+        ["css=.SearchBoxTextEditor", "css:finder"],
+        ["xpath=//input[@value='Paris']", "xpath:attributes"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Paris"
+    }, {
+      "id": "c7e4b397-fbe7-43bb-93ab-9d651c26fc6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.Suggestion__categoryName_item",
+      "targets": [
+        ["css=li.Suggestion__categoryName_item", "css"],
+        ["css=.Suggestion:nth-child(1) .Suggestion__categoryName_item:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/ul/li/ul/li", "xpath:idRelative"],
+        ["xpath=//li/ul/li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21df895f-a521-48f8-a2a8-75dc2e652e1c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,90.4000015258789)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "547f1afb-2748-40ab-b99b-9a840f1221b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Month:nth-child(1) .DayPicker-Week:nth-child(5) > .DayPicker-Day:nth-child(4) > .DayPicker-Day__label",
+      "targets": [
+        ["css=.DayPicker-Month:nth-child(1) .DayPicker-Week:nth-child(5) > .DayPicker-Day:nth-child(4) > .DayPicker-Day__label", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/div/div/div[2]/div/div[3]/div[5]/div[4]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div[4]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "125af1ab-3f9b-474d-a589-2d674cacd29c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.DayPicker-Day--checkOut > .DayPicker-Day__label",
+      "targets": [
+        ["css=.DayPicker-Day--checkOut > .DayPicker-Day__label", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/div/div/div[2]/div[2]/div[3]/div/div[5]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div[5]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0433d9f-a0c2-4830-83ca-3b3b6774ec08",
+      "comment": "",
+      "command": "click",
+      "target": "css=.TravellerSegment:nth-child(4) > .TravellerSegment__title",
+      "targets": [
+        ["css=.TravellerSegment:nth-child(4) > .TravellerSegment__title", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/div/div/div/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "153eefa0-17a5-4796-a3d6-a23147736f5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.PlusMinusRow.PlusMinusRow--noBorder > span.PlusMinusRow__plus",
+      "targets": [
+        ["css=div.PlusMinusRow.PlusMinusRow--noBorder > span.PlusMinusRow__plus", "css"],
+        ["css=.PlusMinusRow--noBorder > .PlusMinusRow__plus", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/div/div[2]/div/div[3]/span[4]", "xpath:idRelative"],
+        ["xpath=//div[3]/span[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec734701-8b01-46b5-9c5d-07e2ba425899",
+      "comment": "",
+      "command": "click",
+      "target": "css=select.DropdownInput__box",
+      "targets": [
+        ["css=select.DropdownInput__box", "css"],
+        ["css=.DropdownInput__box", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/div/div[2]/div/div[4]/ul/li/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7cebe18-f388-405c-aba3-d2b5e7eb9b6f",
+      "comment": "",
+      "command": "select",
+      "target": "css=select.DropdownInput__box",
+      "targets": [],
+      "value": "label=regexp:\\s+5"
+    }, {
+      "id": "a23b71c3-9094-4990-8e18-f64f52b67dd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=select.DropdownInput__box",
+      "targets": [
+        ["css=select.DropdownInput__box", "css"],
+        ["css=.DropdownInput__box", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/div/div[2]/div/div[4]/ul/li/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb61810c-81fa-488d-9811-0eee4ab6c95a",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.CheckboxContainer-Checkbox.Medium",
+      "targets": [
+        ["css=span.CheckboxContainer-Checkbox.Medium", "css"],
+        ["css=.CheckboxContainer-Checkbox", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/div[5]/div/div/div/div[2]/div/div[5]/div/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5cce737-3385-4d1a-b774-76c930547743",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Searchbox__searchButton",
+      "targets": [
+        ["css=.Searchbox__searchButton", "css:finder"],
+        ["xpath=//div[@id='SearchBoxContainer']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "856df9b3-a8db-4fcb-84a0-ba8e5e0c787e",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.checkbox-icon",
+      "targets": [
+        ["css=span.checkbox-icon", "css"],
+        ["css=.StarRating-5 .checkbox-icon", "css:finder"],
+        ["xpath=//li[@id='StarRating']/div[2]/ul/li/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f099044-7ec8-4640-acc6-6b4dfca4066b",
+      "comment": "",
+      "command": "click",
+      "target": "id=price_box_1",
+      "targets": [
+        ["id=price_box_1", "id"],
+        ["css=#price_box_1", "css"],
+        ["css=#price_box_1", "css:finder"],
+        ["xpath=//input[@id='price_box_1']", "xpath:attributes"],
+        ["xpath=//li[@id='PriceFilterRange']/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "917e6046-86d8-48e8-9c32-665a461cf9a7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=price_box_1",
+      "targets": [
+        ["id=price_box_1", "id"],
+        ["css=#price_box_1", "css"],
+        ["css=#price_box_1", "css:finder"],
+        ["xpath=//input[@id='price_box_1']", "xpath:attributes"],
+        ["xpath=//li[@id='PriceFilterRange']/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d978ee9-4e4b-4713-8943-1a82bc2edc75",
+      "comment": "",
+      "command": "type",
+      "target": "id=price_box_1",
+      "targets": [
+        ["id=price_box_1", "id"],
+        ["css=#price_box_1", "css"],
+        ["css=#price_box_1", "css:finder"],
+        ["xpath=//input[@id='price_box_1']", "xpath:attributes"],
+        ["xpath=//li[@id='PriceFilterRange']/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "4000"
+    }, {
+      "id": "2991fe4c-d9e6-4db1-a9a5-44dc050557a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.filter-item-body.AffordableCategories-2  > span > span.filter-count",
+      "targets": [
+        ["css=span.filter-item-body.AffordableCategories-2  > span > span.filter-count", "css"],
+        ["css=.AffordableCategories-2 .filter-count", "css:finder"],
+        ["xpath=//li[@id='AffordableCategories']/div[2]/ul/li/span/span[2]/span/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/div[2]/ul/li/span/span[2]/span/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e875fe2b-a4af-4d2c-a9ae-563e62cc71a5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,622.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "271aaf3c-9e3f-4a1f-a514-4731220aad3e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,872)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2521dfc-54b5-4f97-a284-956d0fcce10d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1183.199951171875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08c85182-3a38-4639-9825-dfb0b924ca2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.filter-item-body.PaymentOptions-52770  > span > span.filter-item-content",
+      "targets": [
+        ["css=span.filter-item-body.PaymentOptions-52770  > span > span.filter-item-content", "css"],
+        ["css=.PaymentOptions-52770 .filter-item-content", "css:finder"],
+        ["xpath=//li[@id='PaymentOptions']/div[2]/ul/li[3]/span/span[2]/span/span", "xpath:idRelative"],
+        ["xpath=//li[7]/div[2]/ul/li[3]/span/span[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dbf8e0f-a6e6-400d-856c-14b69705910d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1710.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7c92872-04d0-4923-956a-db37e3faf01c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1846.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69554026-d3a9-46a0-9939-3123906fdc66",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Diğer 7 seçeneği göster",
+      "targets": [
+        ["linkText=Diğer 7 seçeneği göster", "linkText"],
+        ["css=#Area > div.Filters__ExpansionButton > a.filter-btn.more-less-btn", "css"],
+        ["css=#Area .filter-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Diğer 7 seçeneği göster')]", "xpath:link"],
+        ["xpath=//li[@id='Area']/div[3]/a", "xpath:idRelative"],
+        ["xpath=//li[11]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b28d3fb-ebe4-4b16-b95a-3aeecd2b2e50",
+      "comment": "",
+      "command": "click",
+      "target": "css=span.filter-item-info.Area-58377  > span > span.checkbox-icon",
+      "targets": [
+        ["css=span.filter-item-info.Area-58377  > span > span.checkbox-icon", "css"],
+        ["css=.Area-58377 .checkbox-icon", "css:finder"],
+        ["xpath=//li[@id='Area']/div[2]/ul/li[4]/span/span/span", "xpath:idRelative"],
+        ["xpath=//li[11]/div[2]/ul/li[4]/span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7807cd-b10c-4472-84ee-7af4e9ed951c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1536)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27db4637-6c98-4626-9e8b-cc9edb289018",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1084)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd96ce57-4b11-4a88-8be9-ee881223b48b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,837.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b681743-1b9a-4dad-96f0-bd1b2d53df1b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#hotel-152888-container > div.LazyLoad.is-visible > div.property-card-content > section.hotel-item-box > div.InfoBox.hotel-info > ul.property-info-container > li.starAreaLine > span.areacity-name > span.areacity-name-text",
+      "targets": [
+        ["css=#hotel-152888-container > div.LazyLoad.is-visible > div.property-card-content > section.hotel-item-box > div.InfoBox.hotel-info > ul.property-info-container > li.starAreaLine > span.areacity-name > span.areacity-name-text", "css"],
+        ["css=#hotel-152888-container .areacity-name-text", "css:finder"],
+        ["xpath=//a[@id='hotel-152888-container']/div/div/section/div[3]/ul/li[2]/span[2]/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/div/section/div[3]/ul/li[2]/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df274cd2-3ae2-4350-9cd2-5e6f479c71ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x841",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1b9df550-c1b1-4dbf-8192-fd90a1679fd9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.agoda.com/"],
+  "plugins": []
+}
